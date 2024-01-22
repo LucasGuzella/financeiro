@@ -1,0 +1,125 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 !important;
+}
+a:link, a:active, a:visited{
+	color: #315e8a;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.row{
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col25{
+	width: 22%;
+}
+.col50{
+	width: 46%;
+}
+.col100{
+	width: 94%;
+}
+
+/* Estilos reutilizaveis */
+.sem-padding{
+	padding: 0 !important;
+}
+.sem-margin{
+	margin: 0 !important;
+}
+.center{
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 1000;
+	margin: 15px 0 10px 0;
+}
+ul li, ol li{
+	margin-bottom: 5px; 
+}
+ul.inline li, ol.inline li{
+	display: inline;
+	margin-right: 40px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right: 40px;
+}
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+}
+a.botao, input.botao{
+	background: #1f3c58;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #ebebeb;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+}
+a.botao:hover, input.botao:hover{
+	background: #315e8a;
+	text-decoration: none;
+}
+
+/* layout site */
+.header{
+	background: #dee3e6;
+}
+footer{
+	background: #1f3c58;
+	color: #bebebe;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 50px;
+	margin: 0 !important;
+}
+.menu{
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.logo{
+	width: 75px;
+}
+section{
+	border: 0;
+	border-bottom: 3em;
+	border-style: solid;
+	border-color: rgba(0,0,0, 0.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sombra{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.warning{
+	padding: 20px 5px;
+	/*border-style: solid;
+	border-width: 1px;*/
+	border-radius: 10px;
+	box-shadow: 2px 4px 8px 2px rgba(255, 0, 0, 0.3), 2px 6px 20px 2px rgba(255, 0, 0, 0.2);;
+	background: rgb(255, 0, 0, 0.3);
+	color: rgb(255, 70, 70);
+}
+
+.esquerda{
+	float: left;
+}
+
+.direita{
+	float: right;
+}
